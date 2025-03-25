@@ -6,3 +6,20 @@
 body{
   background-color: #111;
 }
+
+#tasklist::-webkit-scrollbar{
+  display: none;
+}
+
+#tasklist {
+  scrollbar-width: none; /* Firefox */
+}
+
+input{
+  background-color: white;
+  color: black;
+}
+textarea{
+  background-color: white;
+  color: black;
+}
