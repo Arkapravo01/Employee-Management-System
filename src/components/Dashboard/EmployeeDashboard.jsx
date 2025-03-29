@@ -3,11 +3,11 @@ import Header from '../other/Header'
 import TaskListNumbers from '../other/TaskListNumbers'
 import TaskList from '../TaskList/TaskList'
 
-const EmployeeDashboard = ({data}) => {
+const EmployeeDashboard = ({data,setUser}) => {
   console.log("In epdash",data);
   return (
     <div className='p-10 bg-[#1C1C1C] h-screen'>
-        <Header data={data}/>
+        <Header data={data} setUser={setUser}/>
         <TaskListNumbers data={data}/>
         <TaskList data={data}/>
     </div>
