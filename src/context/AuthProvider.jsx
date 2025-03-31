@@ -9,6 +9,7 @@ const AuthProvider = ({ children }) => {
     const { employees, admin } = getLocalStorage();
     console.log("Fetched from localStorage:", { employees, admin }); // Debugging
     setUserData({ employees, admin });
+    
   }, []);
 
 
